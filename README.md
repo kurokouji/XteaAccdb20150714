@@ -22,9 +22,9 @@ xtea Driver・Modeler　をインストールし、.xeafをクリックすれば
 それぞれ、.xeafと.accdbファイルは、同じフォルダ内で動作します。
 
 データベースへの接続文字列が<CURRENT>となっています。
-場所を特定したい場合は、<CURRENT> を C:\work\　に変更してください。
+場所を特定したい場合は、＜CURRENT＞ を C:\work\　に変更してください。
 
-jdbc:ucanaccess://<CURRENT>\mfgorder.accdb;memory=false
+jdbc:ucanaccess://＜CURRENT＞\mfgorder.accdb;memory=false
 
 修正例：
 jdbc:ucanaccess://C:\work\mfgorder.accdb;memory=false
